@@ -1,16 +1,21 @@
-"""Financial Ratios to invest in stocks
+"""
+A financial ratio or accounting ratio is a relative magnitude of two
+selected numerical values taken from an enterprise's financial statements.
+Often used in accounting, there are many standard ratios used to try to
+evaluate the overall financial condition of a corporation or other
+organization.
 
 Info Source:
-https://finance.zacks.com/seven-ways-analyze-stock-4845.html
-https://www.quora.com/What-are-3-most-important-financial-ratios-
-    we-should-study-before-investing-in-stocks
-https://www.theinvestorspodcast.com/warren-buffett-investment-strategy/
-    module-2/rule-1-leadership/
-    #:~:text=To%20be%20sure%20of%20the,as%20expected%20to%20flow%20out.
+    https://finance.zacks.com/seven-ways-analyze-stock-4845.html
+    https://www.quora.com/What-are-3-most-important-financial-ratios-
+        we-should-study-before-investing-in-stocks
+    https://www.theinvestorspodcast.com/warren-buffett-investment-strategy/
+        module-2/rule-1-leadership/
+        #:~:text=To%20be%20sure%20of%20the,as%20expected%20to%20flow%20out.
 
 Data Sources:
-https://finance.yahoo.com/quote/NFLX/financials?p=NFLX
-https://finbox.com/
+    https://finance.yahoo.com/quote/NFLX/financials?p=NFLX
+    https://finbox.com/
 """
 
 
