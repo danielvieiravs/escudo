@@ -86,7 +86,7 @@ def operating_profit_margin():
     Returns:
         TODO: Add returns
     """
-    raise NotImplementedError('Operating profit margin not implemented yet')
+    raise NotImplementedError("Operating profit margin not implemented yet")
 
 
 def net_profit_margin(total_revenue, cost_of_revenue):
@@ -217,7 +217,7 @@ def interest_coverage(ebit, interest_expense):
         https://www.investopedia.com/ask/answers/121814/what-good-
             interest-coverage-ratio.asp
     """
-    raise NotImplementedError('Interest coverage not implemented yet')
+    raise NotImplementedError("Interest coverage not implemented yet")
 
 
 def eps_growth(current_year, prior_year):
@@ -349,7 +349,8 @@ def r_and_d_total_investments(r_and_d, total_investments):
 
 def long_term_investments_total_investments():
     raise NotImplementedError(
-        'Long term investments / total investments not implemented yet')
+        "Long term investments / total investments not implemented yet"
+    )
 
 
 def return_on_assets(net_income, average_total_assets):
@@ -384,22 +385,19 @@ def return_on_assets(net_income, average_total_assets):
 
 
 def return_on_equity():
-    raise NotImplementedError('Return on equity not implemented yet')
+    raise NotImplementedError("Return on equity not implemented yet")
 
 
 def growth_in_retained_earnings():
-    raise NotImplementedError(
-        'Growth in retained earnings not implemented yet')
+    raise NotImplementedError("Growth in retained earnings not implemented yet")
 
 
 def profit_growth_and_sales_growth():
-    raise NotImplementedError(
-        'Profit Growth and Sales Growth not implemented yet')
+    raise NotImplementedError("Profit Growth and Sales Growth not implemented yet")
 
 
 def profit_growth_to_sales_growth():
-    raise NotImplementedError(
-        'Profit Growth-to-Sales Growth not implemented yet')
+    raise NotImplementedError("Profit Growth-to-Sales Growth not implemented yet")
 
 
 def peg_ratio(peg_ratio, eps_growth_rate):
