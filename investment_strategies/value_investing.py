@@ -29,4 +29,5 @@ Info source:
     https://www.youtube.com/watch?v=dWDPMD_rCY0
     https://profitful.online/available-courses
     https://www.gurufocus.com/stock/FB/dcf
+    https://www.youtube.com/watch?v=l-T-Vyk2txc
 """
