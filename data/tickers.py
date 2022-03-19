@@ -11,10 +11,12 @@ def standard_and_poors_500(include_company_data=False):
     """TODO: Add comment"""
 
     component_stocks = pd.read_html(
-        'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
+        "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    )[0]
 
-    component_stocks['Symbol'] = component_stocks['Symbol'].str.replace(
-        '.', '-', regex=True)
+    component_stocks["Symbol"] = component_stocks["Symbol"].str.replace(
+        ".", "-", regex=True
+    )
 
     if include_company_data:
         return component_stocks
@@ -24,3 +26,7 @@ def standard_and_poors_500(include_company_data=False):
     tickers = sorted(tickers)
 
     return tickers
+
+
+# Get other tickers
+# https://dumbstockapi.com/

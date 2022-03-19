@@ -142,6 +142,7 @@ def get_quote_table(ticker, dict_result=True, headers={"User-agent": "Mozilla/5.
     Args:
         ticker (str)
         dict_result (bool)
+        headers (dicts)
     """
     site = "https://finance.yahoo.com/quote/" + ticker + "?p=" + ticker
 
@@ -169,4 +170,27 @@ def get_quote_table(ticker, dict_result=True, headers={"User-agent": "Mozilla/5.
     return data
 
 
+def get_analysis_info(ticker, headers={"User-agent": "Mozilla/5.0"}):
+    """Scrapes the Analysis page from Yahoo Finance for an input ticker
+
+       Args:
+        ticker (str)
+        headers (dicts)
+    """
+
+    analysis_site = (
+        "https://finance.yahoo.com/quote/" + ticker + "/analysis?p=" + ticker
+    )
+
+    tables = pd.read_html(requests.get(analysis_site, headers=headers).text)
+
+    table_names = [table.columns[0] for table in tables]
+
+    table_mapper = {key: val for key, val in zip(table_names, tables)}
+
+    return table_mapper
+
+
 # roic.ai
+
+# TODO: Scrape data from https://roic.ai/company/IRM
