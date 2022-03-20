@@ -45,7 +45,8 @@ Info source:
 # To check if a company is good
 # https://www.youtube.com/watch?v=5_Rt1Onv0C4
 
-# Just calculate fair price if passes 5 big numbers
+# TODO: Just calculate fair price if passes 5 big numbers
+# TODO: Calculate if eps negative too
 
 
 def intrinsic_value_phil_town(

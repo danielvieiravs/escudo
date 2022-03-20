@@ -28,5 +28,5 @@ def standard_and_poors_500(include_company_data=False):
     return tickers
 
 
-# Get other tickers
+# TODO: Get other tickers
 # https://dumbstockapi.com/
